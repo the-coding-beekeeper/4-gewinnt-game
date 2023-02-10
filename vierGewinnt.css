@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  }
+  nav {
+    width: 100rem;
+    height: 10rem;
+    border: 1px solid white;
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+
+  }
+  #bunt {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+
+  }
+  #rahmen {
+    width: 100rem;
+    height: 50rem;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  } 
+  #player1 {
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+  }
+  #player2 {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  #einwurf {
+    margin-top: 150px;
+    border: 1px solid rgb(85, 85, 225);
+    border-radius: 15px;
+    width: min-content;
+    height: min-content;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr) ;
+    grid-template-rows:  repeat(1, 1fr);
+    grid-gap: 2px;
+    background-color:  transparent;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #koordinatensystem {
+    border: 1px solid rgb(85, 85, 225);
+    border-radius: 15px;
+    width: min-content;
+    height: min-content;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr) ;
+    grid-template-rows:  repeat(6, 1fr);
+    grid-gap: 2px;
+    background-color:  rgb(85, 85, 225);
+    align-items: center;
+    justify-content: center;
+  }
+  .planquadrat {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(2, 2, 118);
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50%;
+  }
+  .planquadrat-Einwurf {
+    width: 80px;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    background-color:  transparent;
+    box-shadow: inset 1px 1px 1px 2px rgb(85, 85, 225) ;
+    border-radius: 50%;
+
+  }
+  p {
+    margin-left: 10px;
+    color: blueviolet;
+    font-size: 2rem;
+  }
+  #mitteilung {
+    line-height: 80px;
+    font-weight: 900;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: linear-gradient(to right, yellow 40%, red);
+    color: rgb(2, 2, 118);
+  }
+  #button {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 8px;
+    font-size:x-large;
+    font-weight: 800;
+    width:200px;
+    height: 3rem;
+    margin-bottom: 1rem;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  
